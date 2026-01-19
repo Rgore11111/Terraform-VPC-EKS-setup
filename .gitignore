@@ -1,0 +1,24 @@
+# Terraform working directory
+**/.terraform/
+
+# Terraform state files
+**/*.tfstate
+**/*.tfstate.backup
+
+# Terraform lock file (optional – ignore if you want clean repo)
+**/.terraform.lock.hcl
+
+# Crash log files
+crash.log
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/
